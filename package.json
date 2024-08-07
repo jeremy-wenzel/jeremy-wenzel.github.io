@@ -1,5 +1,6 @@
 {
   "name": "blog",
+  "homepage": "htts://jeremy-wenzel.github.io/jeremy-wenzel/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
