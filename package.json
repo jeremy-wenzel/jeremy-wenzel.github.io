@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "homepage": "htts://jeremy-wenzel.github.io/jeremy-wenzel/",
+  "homepage": "https://jeremy-wenzel.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,8 +10,10 @@
     "@types/node": "^16.18.104",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "bootstrap": "^5.3.3",
     "gh-pages": "^6.1.1",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
