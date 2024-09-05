@@ -9,7 +9,7 @@ export function Specialty(props: PropsWithChildren<SpecialtyProps>) {
   return (
     <>
       <div className="text-center">
-        <span>{props.header}</span>
+        <h5 className="specialty-header">{props.header}</h5>
       </div>
       <div className="text-center">
         {props.children}

@@ -1,9 +1,9 @@
 .list-line {
   position: absolute;
-  width: 1px;
+  width: 2px;
   height: 100%;
   background: white;
-  left: 22px;
+  left: 24px;
 }
 
 .experience-wrapper {
@@ -15,14 +15,15 @@
 }
 
 .list-item-bullet {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
-  background: orange;
+  background: #bf5700;
   display: inline-block;
   margin-right: 1rem;
-  margin-left: 16px;
+  margin-left: 17px;
   flex: 0 0 auto;
+  z-index: 1;
 }
 
 .employment-details {
@@ -33,6 +34,29 @@
   margin-bottom: 0;
 }
 
+.company-name {
+  display: flex;
+  padding-left: 1rem;
+  align-items: center;
+}
+
 .company-wrapper {
   margin-bottom: 1rem;
+}
+
+.employer-wrapper {
+  display: inline-flex;
+  padding-bottom: .75rem;
+}
+
+.job-title {
+  color: #bf5700
+}
+
+.start-date {
+  color: rgb(163, 163, 163);
+}
+
+.italicized {
+  font-style: italic;
 }

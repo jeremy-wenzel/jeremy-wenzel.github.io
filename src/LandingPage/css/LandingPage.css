@@ -1,0 +1,26 @@
+.landing-page {
+  background: rgba(0, 0, 0, 0.83);
+  color: white;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main-banner {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.intro-banner {
+  background: #bf5700;
+  padding: 3rem 0 3rem 0;
+}
+
+.experience-banner {
+  padding: 3rem 0 1rem 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

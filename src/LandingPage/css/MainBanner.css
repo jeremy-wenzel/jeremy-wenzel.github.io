@@ -2,3 +2,13 @@
   display: flex;
   justify-content: center;
 }
+
+.links {
+  color: orange;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.first-link {
+  padding-right: 1rem;
+}
