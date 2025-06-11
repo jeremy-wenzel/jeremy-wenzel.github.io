@@ -6,7 +6,7 @@ import "./css/MainBanner.css";
 
 export default function MainBanner() {
   return (
-    <div>
+    <div className="main-banner">
       <h1 className="text-center">Jeremy Wenzel</h1>
       <h5 className="text-center">Full stack software developer, Senior Software Engineer @ Microsoft</h5>
       <div className="links center-content">
