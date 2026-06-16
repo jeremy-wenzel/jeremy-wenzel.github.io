@@ -10,7 +10,7 @@ export default function Employer(props: EmployerProps) {
     const pathToAsset = `assets/${props.logoFileName}`
     return (
       <div className='logo'>
-        <img src={pathToAsset} height="50px" width="50px" />
+        <img src={pathToAsset} alt={`${props.companyName} logo`} height="50px" width="50px" />
       </div>
     )
   }
